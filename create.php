@@ -19,6 +19,7 @@ $errors = [
     "phone" => "",
     "website" => "",
 ];
+$isValid = true;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
@@ -34,3 +35,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 ?>
+
+<?php include "_form.php" ?>
